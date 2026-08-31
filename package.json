@@ -1,0 +1,51 @@
+{
+    "name": "Phoenix 4PI DDoS",
+    "version": "1.0.0",
+    "description": "",
+    "depecrated": false,
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "chalk": "^4.1.2",
+        "fs": "latest",
+        "os": "latest",
+        "net": "latest",
+        "http": "latest",
+        "http2": "latest",
+        "tls": "latest",
+        "cluster": "latest",
+        "colors": "latest",
+        "dgram": "latest",
+        "https": "latest",
+        "pino": "latest",
+        "node-fetch": "^2.7.0",
+        "dns": "latest",
+        "util": "latest",
+        "cloudscraper": "latest",
+        "jsdom": "latest",
+        "request": "latest",
+        "crypto": "latest",
+        "crypto-random-string": "^3.3.1",
+        "header-generator": "latest",
+        "socks": "latest",
+        "qrcode-terminal": "^0.12.0",
+        "fake-useragent": "latest",
+        "random-useragent": "^0.5.0",
+        "cloudflare-bypasser": "^0.0.3",
+        "cheerio": "^1.0.0-rc.12",
+        "express": "^4.18.2",
+        "gradient-string": "^2.0.2",
+        "hpack": "^1.0.0",
+        "ssh2": "^1.15.0",
+        "url": "^0.11.0",
+        "user-agents": "^1.1.246"
+    },
+    "author": "Joomoddss"
+}
