@@ -17,9 +17,9 @@ import re
 
 colorama.init(autoreset=True)
 
-AUTHOR = "BNCT_1360"
+AUTHOR = "ANDIKA"
 VERSION = "4.0"
-TOOL_NAME = "BNCT_1360 C2 PANEL"
+TOOL_NAME = "ANDIKA C2 PANEL"
 
 active_attacks = {}
 attack_lock = threading.Lock()
@@ -242,7 +242,7 @@ def show_help():
     clear_screen()
     help_text = f"""
 {Colors.CYAN}╔═══════════════════════════════════════════════════════════════════╗
-║                    {Colors.BOLD}BNCT_1360 HELP MENU{Colors.CYAN}                      ║
+║                    {Colors.BOLD}andika HELP MENU{Colors.CYAN}                      ║
 ╚═══════════════════════════════════════════════════════════════════╝{Colors.RESET}
 
 {Colors.GREEN}┌─────────────────────────────────────────────────────────────────┐
@@ -704,9 +704,9 @@ def execute_attack(target, duration, method):
 def c2_panel():
     while True:
         try:
-            sys.stdout.write(f"\x1b]2;BNCT_1360-Phoenix :: Online: [1] :: Active: [{len(active_attacks)}]\x07")
+            sys.stdout.write(f"\x1b]2;andika-Phoenix :: Online: [1] :: Active: [{len(active_attacks)}]\x07")
             
-            cmd = input(f"\n{Colors.RED}[BNCT_1360-Phoenix]{Colors.RESET} {Colors.RED}~# {Colors.RESET}").strip()
+            cmd = input(f"\n{Colors.RED}[andika-Phoenix]{Colors.RESET} {Colors.RED}~# {Colors.RESET}").strip()
             
             if not cmd:
                 continue
@@ -788,8 +788,8 @@ def login():
 ╚═══════════════════════════════════════════════════════════════════╝{Colors.RESET}
     """)
     
-    default_user = "BNCT"
-    default_pass = "1360"
+    default_user = "irul"
+    default_pass = "123"
     
     try:
         username = input(f"{Colors.CYAN}[{Colors.GREEN}USERNAME{Colors.CYAN}]: {Colors.RESET}")
