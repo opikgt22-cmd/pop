@@ -47,45 +47,33 @@ def clear_screen():
 def print_banner():
     clear_screen()
     banner = f"""
-{Colors.RED}_____                    _____                    _____                _____          
-{Colors.RED}         /\    \                  /\    \                  /\    \              /\    \         
-{Colors.RED}        /::\    \                /::\____\                /::\    \            /::\    \        
-{Colors.RED}       /::::\    \              /::::|   |               /::::\    \           \:::\    \       
-{Colors.RED}      /::::::\    \            /:::::|   |              /::::::\    \           \:::\    \      
-{Colors.RED}     /:::/\:::\    \          /::::::|   |             /:::/\:::\    \           \:::\    \     
-{Colors.RED}    /:::/__\:::\    \        /:::/|::|   |            /:::/  \:::\    \           \:::\    \    
-{Colors.RED}   /::::\   \:::\    \      /:::/ |::|   |           /:::/    \:::\    \          /::::\    \   
-{Colors.RED}  /::::::\   \:::\    \    /:::/  |::|   | _____    /:::/    / \:::\    \        /::::::\    \  
-{Colors.RED} /:::/\:::\   \:::\ ___\  /:::/   |::|   |/\    \  /:::/    /   \:::\    \      /:::/\:::\    \ 
-{Colors.RED}/:::/__\:::\   \:::|    |/:: /    |::|   /::\____\/:::/____/     \:::\____\    /:::/  \:::\____\
-{Colors.RED}\:::\   \:::\  /:::|____|\::/    /|::|  /:::/    /\:::\    \      \::/    /   /:::/    \::/    /
-{Colors.RED} \:::\   \:::\/:::/    /  \/____/ |::| /:::/    /  \:::\    \      \/____/   /:::/    / \/____/ 
-{Colors.RED}  \:::\   \::::::/    /           |::|/:::/    /    \:::\    \              /:::/    /          
-{Colors.RED}   \:::\   \::::/    /            |::::::/    /      \:::\    \            /:::/    /           
-{Colors.RED}    \:::\  /:::/    /             |:::::/    /        \:::\    \           \::/    /            
-{Colors.RED}     \:::\/:::/    /              |::::/    /          \:::\    \           \/____/             
-{Colors.RED}      \::::::/    /               /:::/    /            \:::\    \                              
-{Colors.RED}       \::::/    /               /:::/    /              \:::\____\                             
-{Colors.RED}        \::/____/                \::/    /                \::/    /                             
-{Colors.RED}         ~~                       \/____/                  \/____/
+{Colors.CYAN}╔══════════════════════════════════════════════════════════════════════╗{Colors.RESET}
+{Colors.CYAN}║{Colors.RESET}                                                                      {Colors.CYAN}║{Colors.RESET}
+{Colors.CYAN}║{Colors.MAGENTA}        █████╗ ███╗   ██╗██████╗ ██╗██╗  ██╗ █████╗{Colors.CYAN}             ║{Colors.RESET}
+{Colors.CYAN}║{Colors.MAGENTA}       ██╔══██╗████╗  ██║██╔══██╗██║██║ ██╔╝██╔══██╗{Colors.CYAN}            ║{Colors.RESET}
+{Colors.CYAN}║{Colors.MAGENTA}       ███████║██╔██╗ ██║██║  ██║██║█████╔╝ ███████║{Colors.CYAN}            ║{Colors.RESET}
+{Colors.CYAN}║{Colors.MAGENTA}       ██╔══██║██║╚██╗██║██║  ██║██║██╔═██╗ ██╔══██║{Colors.CYAN}            ║{Colors.RESET}
+{Colors.CYAN}║{Colors.MAGENTA}       ██║  ██║██║ ╚████║██████╔╝██║██║  ██╗██║  ██║{Colors.CYAN}            ║{Colors.RESET}
+{Colors.CYAN}║{Colors.MAGENTA}       ╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝{Colors.CYAN}             ║{Colors.RESET}
+{Colors.CYAN}║                                                                      ║
+{Colors.CYAN}║{Colors.YELLOW}                 A N D I K A   P H O E N I X{Colors.CYAN}                  ║{Colors.RESET}
+{Colors.CYAN}║{Colors.GREEN}                    ● SYSTEM ONLINE{Colors.CYAN}                          ║{Colors.RESET}
+{Colors.CYAN}╠══════════════════════════════════════════════════════════════════════╣{Colors.RESET}
+{Colors.CYAN}║{Colors.WHITE}  AUTHOR  : {Colors.GREEN}{AUTHOR:<54}{Colors.CYAN}║{Colors.RESET}
+{Colors.CYAN}║{Colors.WHITE}  VERSION : {Colors.GREEN}{VERSION:<54}{Colors.CYAN}║{Colors.RESET}
+{Colors.CYAN}║{Colors.WHITE}  STATUS  : {Colors.GREEN}{'ONLINE':<54}{Colors.CYAN}║{Colors.RESET}
+{Colors.CYAN}╠══════════════════════════════════════════════════════════════════════╣{Colors.RESET}
+{Colors.CYAN}║{Colors.YELLOW}                        COMMAND CENTER{Colors.CYAN}                         ║{Colors.RESET}
+{Colors.CYAN}╠══════════════════════════════════════════════════════════════════════╣{Colors.RESET}
+{Colors.CYAN}║  {Colors.GREEN}.help{Colors.WHITE}       Help Menu          {Colors.GREEN}.methods{Colors.WHITE}    Methods        {Colors.CYAN}║{Colors.RESET}
+{Colors.CYAN}║  {Colors.GREEN}.status{Colors.WHITE}     Status             {Colors.GREEN}.info{Colors.WHITE}       System Info    {Colors.CYAN}║{Colors.RESET}
+{Colors.CYAN}║  {Colors.GREEN}.clear{Colors.WHITE}      Refresh Screen     {Colors.GREEN}.stop{Colors.WHITE}       Stop All       {Colors.CYAN}║{Colors.RESET}
+{Colors.CYAN}║  {Colors.GREEN}.list{Colors.WHITE}       List Methods      {Colors.GREEN}.exit{Colors.WHITE}       Exit Panel      {Colors.CYAN}║{Colors.RESET}
+{Colors.CYAN}╠══════════════════════════════════════════════════════════════════════╣{Colors.RESET}
+{Colors.CYAN}║{Colors.YELLOW}  [!] Ketik .help untuk bantuan | .methods untuk daftar lengkap      {Colors.CYAN}║{Colors.RESET}
+{Colors.CYAN}╚══════════════════════════════════════════════════════════════════════╝{Colors.RESET}
 
-
-{Colors.YELLOW}              ☠☠ {TOOL_NAME} - PHOENIX EDITION ☠☠
-{Colors.RED}              ☠☠ AUTHOR: {AUTHOR} ☠☠
-
-{Colors.CYAN}╔═══════════════════════════════════════════════════════════════════╗
-║                    AVAILABLE ATTACK METHODS                      ║
-╚═══════════════════════════════════════════════════════════════════╝{Colors.RESET}
-
-{Colors.RED}┌─────────────────────────────────────────────────────────────────┐
-│  {Colors.GREEN}.kill        {Colors.WHITE}│  {Colors.GREEN}.phoenix    {Colors.WHITE}│  {Colors.GREEN}.exorcist   {Colors.WHITE}│  {Colors.GREEN}.blaze      │
-│  {Colors.GREEN}.ultimate    {Colors.WHITE}│  {Colors.GREEN}.exercist    {Colors.WHITE}│  {Colors.GREEN}.proxy      {Colors.WHITE}│  {Colors.GREEN}.status     │
-│  {Colors.GREEN}.stop        {Colors.WHITE}│  {Colors.GREEN}.help       {Colors.WHITE}│  {Colors.GREEN}.clear      {Colors.WHITE}│  {Colors.GREEN}.info       │
-│  {Colors.GREEN}.methods     {Colors.WHITE}│  {Colors.GREEN}.list       {Colors.WHITE}│  {Colors.GREEN}.ls         {Colors.WHITE}│  {Colors.GREEN}.show       │
-└─────────────────────────────────────────────────────────────────┘{Colors.RESET}
-
-{Colors.YELLOW}[!] Type .help for more information | .methods to see all methods
-{Colors.RESET}
+{Colors.DARK}                         // ANDIKA //{Colors.RESET}
 """
     print(banner)
 
